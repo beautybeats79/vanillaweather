@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(to right, #f9f7fe, #e0d4fc);
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -8,6 +8,7 @@ body {
 a {
   color: #885df1;
   text-decoration: none;
+  font-style: italic;
 }
 
 .weather-app {
@@ -39,6 +40,7 @@ header {
   font-size: 16px;
   padding: 15px 20px;
   min-width: 200px;
+  font-style: italic;
 }
 
 .search-form-button {
@@ -50,6 +52,7 @@ header {
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-style: italic;
 }
 
 .search-form-button:hover {
@@ -72,6 +75,7 @@ main {
   margin: 0;
   font-size: 38px;
   line-height: 1.2;
+  font-style: italic;
 }
 
 .weather-app-details {
@@ -80,6 +84,7 @@ main {
   line-height: 1.5;
   font-weight: 500;
   margin-top: 10px;
+  font-style: italic;
 }
 
 .weather-app-details strong {
@@ -103,11 +108,13 @@ main {
   font-size: 88px;
   line-height: 1;
   font-weight: bold;
+  front-style: italic;
 }
 
 .weather-app-unit {
   font-size: 28px;
   margin-top: 8px;
+  front-style: italic;
 }
 
 footer {
@@ -117,6 +124,7 @@ footer {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
   margin-top: 20px;
+  front-style: italic;
 }
 
 /* Responsive Enhancements */
